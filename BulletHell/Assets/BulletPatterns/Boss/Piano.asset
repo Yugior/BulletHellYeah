@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496a89229c7b8794780cfc0fdd47b325, type: 3}
+  m_Name: Piano
+  m_EditorClassIdentifier: Assembly-CSharp::RadialShotPattern
+  Repetitions: 25
+  AngleOffsetBetweenRepetitions: -6
+  StartWait: 55
+  EndWait: 15
+  PatternSettings:
+  - NumberofBullets: 7
+    BulletSpeed: 20
+    CooldownAfterShot: 0.1
+    PhaseOffset: 0
+    AngleOffSet: 0
+    radialMask: 0
+    maskAngle: 0

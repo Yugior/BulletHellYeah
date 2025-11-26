@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3197254158201829342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8882580360109778437}
+  - component: {fileID: 6258896556626386947}
+  - component: {fileID: 480638600237664476}
+  - component: {fileID: -3871203688086192845}
+  - component: {fileID: 2718323441423143819}
+  - component: {fileID: -4666276528715548962}
+  - component: {fileID: -2555048789731483083}
+  - component: {fileID: -4293336389748308486}
+  - component: {fileID: 721634164651520958}
+  - component: {fileID: -5662752124229004124}
+  - component: {fileID: -7601635815613361324}
+  - component: {fileID: 1849536319132313496}
+  - component: {fileID: -5197582496220438455}
+  m_Layer: 0
+  m_Name: StepsSing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8882580360109778437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197254158201829342}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.33914, y: 3.60831, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6258896556626386947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197254158201829342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 799b3ad71c5de45419d43f300f30971c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RadialShotPatternVisualizer
+  _pattern: {fileID: 11400000, guid: 1231e6f572ae72f4fb0959fcac6e480e, type: 2}
+  _radius: 0.4
+  _color: {r: 0, g: 0, b: 0, a: 0}
+  _testTime: 1
+--- !u!114 &480638600237664476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197254158201829342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17683c62172d9304281c538029f35211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RadialShotWeapon
+  _shotPattern: {fileID: 11400000, guid: 1231e6f572ae72f4fb0959fcac6e480e, type: 2}
+--- !u!114 &-3871203688086192845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197254158201829342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 799b3ad71c5de45419d43f300f30971c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RadialShotPatternVisualizer
+  _pattern: {fileID: 11400000, guid: 73e44651f34577043a1d01eb34cf9543, type: 2}
+  _radius: 0.4
+  _color: {r: 0.21568629, g: 0.21568629, b: 0.21568629, a: 0}
+  _testTime: 1
+--- !u!114 &2718323441423143819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197254158201829342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17683c62172d9304281c538029f35211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RadialShotWeapon
+  _shotPattern: {fileID: 11400000, guid: 73e44651f34577043a1d01eb34cf9543, type: 2}
+--- !u!114 &-4666276528715548962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197254158201829342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 799b3ad71c5de45419d43f300f30971c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RadialShotPatternVisualizer
+  _pattern: {fileID: 11400000, guid: b3fc06a883d8da342bb3b6cb6ba5e914, type: 2}
+  _radius: 0.4
+  _color: {r: 0, g: 0, b: 0, a: 0}
+  _testTime: 0.67
+--- !u!114 &-2555048789731483083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197254158201829342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17683c62172d9304281c538029f35211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RadialShotWeapon
+  _shotPattern: {fileID: 11400000, guid: b3fc06a883d8da342bb3b6cb6ba5e914, type: 2}
+--- !u!114 &-4293336389748308486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197254158201829342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 799b3ad71c5de45419d43f300f30971c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RadialShotPatternVisualizer
+  _pattern: {fileID: 11400000, guid: e099610f74c35b84484c38f1d119504d, type: 2}
+  _radius: 0.4
+  _color: {r: 0, g: 0, b: 0, a: 0}
+  _testTime: 0.59
+--- !u!114 &721634164651520958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197254158201829342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17683c62172d9304281c538029f35211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RadialShotWeapon
+  _shotPattern: {fileID: 11400000, guid: e099610f74c35b84484c38f1d119504d, type: 2}
+--- !u!114 &-5662752124229004124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197254158201829342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 799b3ad71c5de45419d43f300f30971c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RadialShotPatternVisualizer
+  _pattern: {fileID: 11400000, guid: 129b6e4c3623d8841a1c4db36a4c451c, type: 2}
+  _radius: 0.4
+  _color: {r: 0, g: 0, b: 0, a: 0}
+  _testTime: 1.01
+--- !u!114 &-7601635815613361324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197254158201829342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17683c62172d9304281c538029f35211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RadialShotWeapon
+  _shotPattern: {fileID: 11400000, guid: 129b6e4c3623d8841a1c4db36a4c451c, type: 2}
+--- !u!212 &1849536319132313496
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197254158201829342}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -6585368715879232701, guid: 95ddd87be2c518e45a014ec5a012c96b, type: 3}
+  m_Color: {r: 0.9559748, g: 0.9310549, b: 0.87480706, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5, y: 5.06}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &-5197582496220438455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197254158201829342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f54ea775d75b56347b2d6340bb54103e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletRotator
+  rotateAmount: 180
+  rotateDuration: 0.8
+  waitTime: 0

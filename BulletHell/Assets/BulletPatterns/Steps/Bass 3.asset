@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496a89229c7b8794780cfc0fdd47b325, type: 3}
+  m_Name: Bass 3
+  m_EditorClassIdentifier: Assembly-CSharp::RadialShotPattern
+  Repetitions: 12
+  AngleOffsetBetweenRepetitions: 0
+  StartWait: 48
+  EndWait: 12
+  PatternSettings:
+  - NumberofBullets: 30
+    BulletSpeed: 10
+    CooldownAfterShot: 0.8
+    PhaseOffset: 1
+    AngleOffSet: 0
+    radialMask: 0
+    maskAngle: 360
+  - NumberofBullets: 30
+    BulletSpeed: 15
+    CooldownAfterShot: 18
+    PhaseOffset: -0.119
+    AngleOffSet: 0
+    radialMask: 0
+    maskAngle: 360
+  - NumberofBullets: 20
+    BulletSpeed: 20
+    CooldownAfterShot: 40
+    PhaseOffset: -0.164
+    AngleOffSet: 0
+    radialMask: 0
+    maskAngle: 297
+  - NumberofBullets: 15
+    BulletSpeed: 12
+    CooldownAfterShot: 10
+    PhaseOffset: 1
+    AngleOffSet: 0
+    radialMask: 0
+    maskAngle: 297
+  - NumberofBullets: 30
+    BulletSpeed: 20
+    CooldownAfterShot: 52
+    PhaseOffset: 1
+    AngleOffSet: 0
+    radialMask: 0
+    maskAngle: 297
