@@ -5,7 +5,7 @@ Se tomo la decisión de crear el juego para modo lunatico, en el se puede ver un
 Los controles son my sencillos, con a,w,s,d o las flechas para moverse y manteniendo shift para una velocidad mas baja en caso de querer presición
 
 ## Nivel
-El nivel dura 2:39 minutos, y existe un objeto que restaura la vida del jugador, debido a la cantidad de balas que salen del nivel se opto por esta solución ya que disminuir el numero de balas bajaria la dificultad y los patrones seria n menos vizibles al rezonar con la música.
+El nivel dura 2:39 minutos, y existe un objeto que restaura la vida del jugador, debido a la cantidad de balas que salen del nivel se opto por esta solución ya que disminuir el numero de balas bajaria la dificultad y los patrones serian menos visibles al rezonar con la música.
 
 ## Youtube
 Aqui pueden ver el video demostrativo del juego
