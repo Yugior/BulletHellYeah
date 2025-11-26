@@ -13,3 +13,5 @@ https://youtube.com/shorts/q3HE4tCG2qY
 
 ## Notas
 Casi no duermo por culpa de los patrones, ya sea porque no entraban en el frame correcto, no se alineaban correctamente o el ritmo de la música era muy frenetico para patrones muy simples, y hazerlos muy complejos aumentaba las balas en pantall, volviendolo injugable, batalle bastante para que quedara en equilibrio y espero se note el esfuerzo, tambien se nota que hay cosas que no estan muy bonitas como la anim de los enemigos(estrellas), el menú al final del nivel, tocara ir puliendo poco a poco pero ahi esta.
+
+Por cierto, compile el juego fuera del repo por lo que deberan dar click en build and run desde la interfaz de desarrollo de unity. A mi me tardo 2 minutos en compilar
